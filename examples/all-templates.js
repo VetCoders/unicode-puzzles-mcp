@@ -13,7 +13,7 @@ async function showcaseTemplates() {
   console.log('🎨 Unicode Puzzles - Template Showcase\n');
   console.log('Each template creates unique visual patterns while hiding your secrets!\n');
   
-  const secretMessage = 'LIBRAXIS-2025';
+  const secretMessage = 'EXAMPLE-2025';
   const visibleMessage = 'The future is distributed';
   
   // Get all template names

@@ -37,18 +37,18 @@
     "hidden-messages",
     "encoding",
     "claude-desktop",
-    "libraxis"
+    "steganography"
   ],
-  "author": "Maciej Gad <void@div0.space>",
+  "author": "Vetcoders <hello@vetcoders.io>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maciejgad/unicode-puzzles-mcp.git"
+    "url": "git+https://github.com/vetcoders/unicode-puzzles-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/maciejgad/unicode-puzzles-mcp/issues"
+    "url": "https://github.com/vetcoders/unicode-puzzles-mcp/issues"
   },
-  "homepage": "https://github.com/maciejgad/unicode-puzzles-mcp#readme",
+  "homepage": "https://github.com/vetcoders/unicode-puzzles-mcp#readme",
   "engines": {
     "node": ">=18.0.0"
   },

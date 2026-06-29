@@ -14,7 +14,7 @@ async function testPuzzle() {
   const quantumPuzzle = await manager.createPuzzle({
     template: quantumTemplate,
     message: 'Reality distortion detected',
-    secret: 'LIBRAXIS://repair-protocol-7A',
+    secret: 'EXAMPLE://secret-payload',
     difficulty: 'medium'
   });
   console.log('Result:', quantumPuzzle);

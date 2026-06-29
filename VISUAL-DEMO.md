@@ -1,116 +1,116 @@
-# 🌌 UNICODE PUZZLES - WIZUALNA DEMONSTRACJA
+# 🌌 UNICODE PUZZLES - VISUAL DEMONSTRATION
 
-## 🎯 Jak to działa?
+## 🎯 How does it work?
 
-### Zwykły tekst:
+### Plain text:
 ```
-VISTA JEST ZAJEBISTA
-```
-
-### Ten sam tekst z ukrytymi danymi:
-```
-V[ZWSP]I[ZWNJ]S[ZWSP]T[ZWSP]A[ZWNJ] [ZWSP]J[ZWNJ]E[ZWSP]S[ZWNJ]T[ZWSP] [ZWNJ]Z[ZWSP]A[ZWSP]J[ZWNJ]E[ZWSP]B[ZWNJ]I[ZWSP]S[ZWNJ]T[ZWSP]A
+HELLO WORLD EXAMPLE
 ```
 
-Gdzie:
+### The same text with hidden data:
+```
+H[ZWSP]E[ZWNJ]L[ZWSP]L[ZWNJ]O[ZWSP] [ZWNJ]W[ZWSP]O[ZWNJ]R[ZWSP]L[ZWNJ]D[ZWSP]
+```
+
+Where:
 - `[ZWSP]` = Zero Width Space (U+200B) = bit "1"
 - `[ZWNJ]` = Zero Width Non-Joiner (U+200C) = bit "0"
 
-## 🔐 Przykład kodowania
+## 🔐 Encoding example
 
-Sekret: "HI" 
+Secret: "HI"
 - H = 01001000
 - I = 01001001
 
-Kodowanie w "VISTA":
+Encoded into "DEMO":
 ```
-V[0]I[1]S[0]T[0]A[1][0][0][0] = V[ZWNJ]I[ZWSP]S[ZWNJ]T[ZWNJ]A[ZWSP][ZWNJ][ZWNJ][ZWNJ]
+H[0]E[1]L[0]L[0]O[1][0][0][0] = H[ZWNJ]E[ZWSP]L[ZWNJ]L[ZWNJ]O[ZWSP][ZWNJ][ZWNJ][ZWNJ]
 ```
 
-## 📊 Analiza różnych template'ów
+## 📊 Analysis of different templates
 
 ### 1. QUANTUM Template
 ```
-【𝚀𝚄𝙰𝙽𝚃𝚄𝙼】∎∎∎ + TEKST_Z_UKRYTYMI_ZNAKAMI + ∎∎∎
+【𝚀𝚄𝙰𝙽𝚃𝚄𝙼】∎∎∎ + TEXT_WITH_HIDDEN_CHARS + ∎∎∎
 ```
-- Używa kwantowych symboli (α, β, γ, ψ, Φ) jako szumu
-- Dodaje losowe zero-width characters dla utrudnienia
+- Uses quantum symbols (α, β, γ, ψ, Φ) as noise
+- Adds random zero-width characters to make detection harder
 
-### 2. ORBITAL Template  
+### 2. ORBITAL Template
 ```
-◉◐ + TEKST + [orbital_symbols] + ◑◉
+◉◐ + TEXT + [orbital_symbols] + ◑◉
 ```
-- Rotuje przez symbole orbitalne (⌾ ☉ ⊕ ⊗ ⊙)
-- Kodowanie oparte na pozycji orbitalnej
+- Rotates through orbital symbols (⌾ ☉ ⊕ ⊗ ⊙)
+- Encoding based on orbital position
 
 ### 3. GLITCH Template
 ```
-[ERR0R]▓▒░ + TEKST + [random_glitch] + ░▒▓
+[ERR0R]▓▒░ + TEXT + [random_glitch] + ░▒▓
 ```
-- Symuluje błędy i zakłócenia
-- Losowe wstawki █ ▓ ▒ ░ 
+- Simulates errors and interference
+- Random inserts █ ▓ ▒ ░
 
 ### 4. VOID Template
 ```
-✧･ﾟ:*⋆⋆⋆ + TEKST + [constellation_pattern] + ⋆⋆⋆*:･ﾟ✧
+✧･ﾟ:*⋆⋆⋆ + TEXT + [constellation_pattern] + ⋆⋆⋆*:･ﾟ✧
 ```
-- Używa symboli kosmicznych ✧ ✦ ★ ☆ ✯
-- Tworzy wzory konstelacji
+- Uses cosmic symbols ✧ ✦ ★ ☆ ✯
+- Creates constellation patterns
 
-## 🧪 Test w praktyce
+## 🧪 Test in practice
 
 ```javascript
-// Oryginalny tekst
-const text = "VISTA JEST ZAJEBISTA";
+// Original text
+const text = "HELLO WORLD EXAMPLE";
 
-// Po zakodowaniu (reprezentacja)
-const encoded = "V\u200BI\u200CS\u200BT\u200BA\u200C \u200BJ\u200CE\u200BS\u200CT\u200B \u200CZ\u200BA\u200BJ\u200CE\u200BB\u200CI\u200BS\u200CT\u200BA";
+// After encoding (representation)
+const encoded = "H​E‌L​L‌O​ ‌W​O‌R​L‌D​";
 
-// Wygląda identycznie ale...
+// Looks identical but...
 console.log(text === encoded); // false!
-console.log(text.length);       // 20
+console.log(text.length);       // 19
 console.log(encoded.length);    // 44 (!)
 ```
 
-## 🎨 Efekt wizualny różnych poziomów trudności
+## 🎨 Visual effect of different difficulty levels
 
-### EASY (mało szumu):
+### EASY (low noise):
 ```
-【Q】∎ V I S T A ∎
+【Q】∎ H E L L O ∎
      ↑ ↑ ↑ ↑ ↑
-     ukryte bity
+     hidden bits
 ```
 
-### MEDIUM (średni szum):
+### MEDIUM (medium noise):
 ```
-【Q】∎∎ V·α·I·S·ψ·T·A ∎∎
+【Q】∎∎ H·α·E·L·ψ·L·O ∎∎
        ↑   ↑   ↑   ↑
-       ukryte + szum kwantowy
+       hidden + quantum noise
 ```
 
-### HARD (dużo szumu):
+### HARD (high noise):
 ```
-【Q】∎∎∎ V[x]α[x]I[x]ψ[x]S[x]Φ[x]T[x]∞[x]A ∎∎∎
+【Q】∎∎∎ H[x]α[x]E[x]ψ[x]L[x]Φ[x]L[x]∞[x]O ∎∎∎
          ↑     ↑     ↑     ↑     ↑     ↑
-         masa ukrytych znaków + szum + losowość
+         lots of hidden chars + noise + randomness
 ```
 
-## 🚀 Zastosowania
+## 🚀 Use cases
 
-1. **Cyfrowe znaki wodne** - niewidoczne podpisy w tekstach
-2. **Ukryte metadane** - informacje o autorze, dacie, wersji
-3. **Bezpieczna komunikacja** - wiadomości ukryte w "normalnych" tekstach
-4. **Easter eggi** - ukryte wiadomości w dokumentacji
-5. **Weryfikacja autentyczności** - niewidoczne checksummy
+1. **Digital watermarks** - invisible signatures in text
+2. **Hidden metadata** - author, date, version information
+3. **Secure communication** - messages hidden inside "normal" text
+4. **Easter eggs** - hidden messages in documentation
+5. **Authenticity verification** - invisible checksums
 
 ## 💡 Pro Tips
 
-- Zero-width characters przeżywają copy/paste!
-- Działają w email, Slack, Discord, Twitter
-- Są niewidoczne w większości edytorów
-- Mogą być wykryte przez hex edytory
-- Unicode normalizer może je usunąć
+- Zero-width characters survive copy/paste!
+- They work in email, Slack, Discord, Twitter
+- They are invisible in most editors
+- They can be detected by hex editors
+- A Unicode normalizer can strip them
 
 ---
 
-*To jest wizualna reprezentacja. Prawdziwe kodowanie używa niewidocznych znaków Unicode!*
+*This is a visual representation. Real encoding uses invisible Unicode characters!*

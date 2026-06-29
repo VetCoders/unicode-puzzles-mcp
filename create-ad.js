@@ -10,7 +10,7 @@ const secrets = [
   'npm install -g automator-mcp',
   'npm install -g unicode-puzzles-mcp', 
   'npm install -g mcp-server-semgrep',
-  'Created by @Szowesgad and @giklaudiusz',
+  'Created by vetcoders',
   'The future is HERE!'
 ];
 

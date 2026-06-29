@@ -28,4 +28,4 @@ All notable changes to unicode-puzzles-mcp will be documented in this file.
 
 ---
 
-Made with 🧠 by LibraxisAI MCP Division
+Made with 🧠 by vetcoders
