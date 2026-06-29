@@ -9,7 +9,7 @@ HELLO WORLD EXAMPLE
 
 ### The same text with hidden data:
 ```
-V[ZWSP]I[ZWNJ]S[ZWSP]T[ZWSP]A[ZWNJ] [ZWSP]J[ZWNJ]E[ZWSP]S[ZWNJ]T[ZWSP] [ZWNJ]Z[ZWSP]A[ZWSP]J[ZWNJ]E[ZWSP]B[ZWNJ]I[ZWSP]S[ZWNJ]T[ZWSP]A
+H[ZWSP]E[ZWNJ]L[ZWSP]L[ZWNJ]O[ZWSP] [ZWNJ]W[ZWSP]O[ZWNJ]R[ZWSP]L[ZWNJ]D[ZWSP]
 ```
 
 Where:
@@ -24,7 +24,7 @@ Secret: "HI"
 
 Encoded into "DEMO":
 ```
-V[0]I[1]S[0]T[0]A[1][0][0][0] = V[ZWNJ]I[ZWSP]S[ZWNJ]T[ZWNJ]A[ZWSP][ZWNJ][ZWNJ][ZWNJ]
+H[0]E[1]L[0]L[0]O[1][0][0][0] = H[ZWNJ]E[ZWSP]L[ZWNJ]L[ZWNJ]O[ZWSP][ZWNJ][ZWNJ][ZWNJ]
 ```
 
 ## 📊 Analysis of different templates
@@ -64,11 +64,11 @@ V[0]I[1]S[0]T[0]A[1][0][0][0] = V[ZWNJ]I[ZWSP]S[ZWNJ]T[ZWNJ]A[ZWSP][ZWNJ][ZWNJ][
 const text = "HELLO WORLD EXAMPLE";
 
 // After encoding (representation)
-const encoded = "V​I‌S​T​A‌ ​J‌E​S‌T​ ‌Z​A​J‌E​B‌I​S‌T​A";
+const encoded = "H​E‌L​L‌O​ ‌W​O‌R​L‌D​";
 
 // Looks identical but...
 console.log(text === encoded); // false!
-console.log(text.length);       // 20
+console.log(text.length);       // 19
 console.log(encoded.length);    // 44 (!)
 ```
 
@@ -76,21 +76,21 @@ console.log(encoded.length);    // 44 (!)
 
 ### EASY (low noise):
 ```
-【Q】∎ V I S T A ∎
+【Q】∎ H E L L O ∎
      ↑ ↑ ↑ ↑ ↑
      hidden bits
 ```
 
 ### MEDIUM (medium noise):
 ```
-【Q】∎∎ V·α·I·S·ψ·T·A ∎∎
+【Q】∎∎ H·α·E·L·ψ·L·O ∎∎
        ↑   ↑   ↑   ↑
        hidden + quantum noise
 ```
 
 ### HARD (high noise):
 ```
-【Q】∎∎∎ V[x]α[x]I[x]ψ[x]S[x]Φ[x]T[x]∞[x]A ∎∎∎
+【Q】∎∎∎ H[x]α[x]E[x]ψ[x]L[x]Φ[x]L[x]∞[x]O ∎∎∎
          ↑     ↑     ↑     ↑     ↑     ↑
          lots of hidden chars + noise + randomness
 ```
