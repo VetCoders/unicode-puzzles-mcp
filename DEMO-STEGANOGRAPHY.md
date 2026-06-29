@@ -97,10 +97,10 @@ console.log("Hidden:", decoded.hiddenMessage);  // "Mascot approves this message
 As tribute to the mascot, here's a special encoded message:
 
 ```
-【𝚀𝚄𝙰𝙽𝚃𝚄𝙼】∎∎∎☕​‌‍‎‏*SPIT*​‌‍‎‏ ​‌‍‎‏V​‌‍‎‏I​‌‍‎‏S​‌‍‎‏T​‌‍‎‏A​‌‍‎‏ ​‌‍‎‏>​‌‍‎‏ ​‌‍‎‏E​‌‍‎‏X​‌‍‎‏C​‌‍‎‏E​‌‍‎‏L​‌‍‎‏∎∎∎
+【𝚀𝚄𝙰𝙽𝚃𝚄𝙼】∎∎∎ HELLO WORLD ∎∎∎
 ```
 
-Hidden inside: GPS coordinates to the S7 billboard location! 🗺️
+Hidden inside: GPS coordinates to a secret location! 🗺️
 
 ---
 
