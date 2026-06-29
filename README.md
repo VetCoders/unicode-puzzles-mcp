@@ -33,7 +33,7 @@ const mcp = new UnicodePuzzlesMCP();
 const puzzle = await mcp.createPuzzle({
   template: 'quantum',
   message: 'System integrity compromised',
-  secret: 'LIBRAXIS://repair-protocol-7A'
+  secret: 'EXAMPLE://secret-payload'
 });
 
 // Decode an encoded message

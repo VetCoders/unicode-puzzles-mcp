@@ -1,6 +1,6 @@
 # 🌌 EPIC UNICODE ART COLLECTION 🌌
 
-## 🚀 LIBRAXIS QUANTUM LOGO
+## 🚀 EXAMPLE QUANTUM LOGO
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                                                                      ║
@@ -46,7 +46,7 @@
               【 𝕰𝖓𝖙𝖊𝖗 𝖙𝖍𝖊 𝖁𝖔𝖎𝖉 】
 ```
 
-## 🎭 VISTA CEREAL GUY SPECIAL
+## 🎭 DEMO MASCOT SPECIAL
 ```
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣤⣤⣤⣤⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⡀⠀⠀⠀⠀⠀⠀⠀
@@ -65,7 +65,7 @@
 ⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 ⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 
-        【 *SPIT* VISTA > EXCEL 】
+        【 *SPIT* DEMO > BORING 】
 ```
 
 ## 🌊 UNICODE WAVE GENERATOR
@@ -212,4 +212,4 @@
 
 ---
 
-*JAK CI SIĘ PODOBA? PORTKI SPADŁY? 😂*
+*HOW DO YOU LIKE IT? MIND BLOWN? 😂*

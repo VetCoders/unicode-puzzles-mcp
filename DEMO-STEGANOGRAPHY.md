@@ -1,16 +1,16 @@
-# 🌌 UNICODE PUZZLES DEMO - VISTA EDITION
+# 🌌 UNICODE PUZZLES DEMO
 
-## ⚠️ WAŻNE: Zero-width characters są niewidoczne w terminalu!
-## 👉 Otwórz ten plik w edytorze tekstu lub przeglądarce żeby zobaczyć efekt!
+## ⚠️ NOTE: Zero-width characters are invisible in a terminal!
+## 👉 Open this file in a text editor or browser to see the effect!
 
 ## 🎯 Original Message
 ```
-VISTA JEST ZAJEBISTA
+HELLO WORLD EXAMPLE
 ```
 
 ## 🔐 Hidden Secret
 ```
-Cereal Guy approves this message!
+Mascot approves this message!
 ```
 
 ---
@@ -75,8 +75,8 @@ const encodedMessage = "【𝚀𝚄𝙰𝙽𝚃𝚄𝙼】∎∎V​‌‍⠀I�
 
 // Use unicode-puzzles-mcp to decode
 const decoded = await decodePuzzle(encodedMessage);
-console.log("Visible:", decoded.visibleText);  // "VISTA JEST ZAJEBISTA"
-console.log("Hidden:", decoded.hiddenMessage);  // "Cereal Guy approves this message!"
+console.log("Visible:", decoded.visibleText);  // "HELLO WORLD EXAMPLE"
+console.log("Hidden:", decoded.hiddenMessage);  // "Mascot approves this message!"
 ```
 
 ## 🎯 Try It Yourself!
@@ -92,9 +92,9 @@ console.log("Hidden:", decoded.hiddenMessage);  // "Cereal Guy approves this mes
 - Each template uses different encoding patterns and visual styles
 - The harder the difficulty, the more noise and complexity added
 
-## 🎨 Vista Special Edition
+## 🎨 Demo Special Edition
 
-As tribute to Vista's Cereal Guy mascot, here's a special encoded message:
+As tribute to the mascot, here's a special encoded message:
 
 ```
 【𝚀𝚄𝙰𝙽𝚃𝚄𝙼】∎∎∎☕​‌‍‎‏*SPIT*​‌‍‎‏ ​‌‍‎‏V​‌‍‎‏I​‌‍‎‏S​‌‍‎‏T​‌‍‎‏A​‌‍‎‏ ​‌‍‎‏>​‌‍‎‏ ​‌‍‎‏E​‌‍‎‏X​‌‍‎‏C​‌‍‎‏E​‌‍‎‏L​‌‍‎‏∎∎∎
